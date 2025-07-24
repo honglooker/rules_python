@@ -64,12 +64,6 @@ def _impl(ctx):
     if got_version.releaselevel != "final":
         got = "{}{}{}".format(
             got,
-            got_version.releaselevel[0],
-            got_version.serial,
-        )
-    if got_version.releaselevel != "final":
-        got = "{}{}{}".format(
-            got,
             "rc" if got_version.releaselevel == "candidate" else got_version.releaselevel[0],
             got_version.serial,
         )
