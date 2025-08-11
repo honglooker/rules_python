@@ -444,6 +444,7 @@ local_runtime_repo(
     name = "local_python3",
     interpreter_path = "python3",
     on_failure = "fail",
+    dev_dependency = True
 )
 
 # Step 2: Create toolchains for the runtimes
@@ -452,6 +453,7 @@ local_runtime_toolchains_repo(
     runtimes = ["local_python3"],
     # TIP: The `target_settings` arg can be used to activate them based on
     # command line flags; see docs below.
+    dev_dependency = True
 )
 
 # Step 3: Register the toolchains
