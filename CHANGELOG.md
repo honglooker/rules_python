@@ -47,9 +47,6 @@ BEGIN_UNRELEASED_TEMPLATE
 END_UNRELEASED_TEMPLATE
 -->
 
-{#1-5-0-removed}
-### Removed
-* Nothing removed.
 
 {#1-4-1}
 ## [1.4.1] - 2025-05-08
