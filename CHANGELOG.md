@@ -56,7 +56,7 @@ END_UNRELEASED_TEMPLATE
 ### Fixed
 
 * fix(local_runtime): Search for libs in sys._base_executable when available. #3178
-gg=======
+
 {#1-5-3}
 ## [1.5.3] - 2025-08-11
 
