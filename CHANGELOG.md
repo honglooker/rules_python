@@ -56,6 +56,35 @@ END_UNRELEASED_TEMPLATE
 ### Fixed
 
 * fix(local_runtime): Search for libs in sys._base_executable when available. #3178
+gg=======
+{#1-5-3}
+## [1.5.3] - 2025-08-11
+
+[1.5.3]: https://github.com/bazel-contrib/rules_python/releases/tag/1.5.3
+
+{#v1-5-3-fixed}
+### Fixed
+* (toolchains) `local_runtime_repo` now checks if the include directory exists
+  before attempting to watch it, fixing issues on macOS with system Python
+  ({gh-issue}`3043`).
+
+{#1-5-2}
+## [1.5.2] - 2025-08-11
+
+[1.5.2]: https://github.com/bazel-contrib/rules_python/releases/tag/1.5.2
+
+{#v1-5-2-changed}
+### Changed
+* (deps) (bzlmod) Upgraded to `bazel-skylib` version
+  [1.8.1](https://github.com/bazelbuild/bazel-skylib/releases/tag/1.8.1)
+  to remove deprecation warnings.
+
+{#v1-5-2-fixed}
+### Fixed
+* (pypi) Correctly pull `sdist` distributions using `pip`
+  ([#3131](https://github.com/bazel-contrib/rules_python/pull/3131)).
+* (core) builds work again on `7.x` `WORKSPACE` configurations
+  ([#3119](https://github.com/bazel-contrib/rules_python/issues/3119)).
 
 {#1-5-1}
 ## [1.5.1] - 2025-07-06
