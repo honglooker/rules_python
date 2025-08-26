@@ -16,10 +16,6 @@ import json
 import sys
 import sysconfig
 
-_IS_WINDOWS = sys.platform == "win32"
-_IS_DARWIN = sys.platform == "darwin"
-
-
 def _get_base_executable():
     """Returns the base executable path."""
     try:
