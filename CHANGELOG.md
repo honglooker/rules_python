@@ -47,6 +47,16 @@ BEGIN_UNRELEASED_TEMPLATE
 END_UNRELEASED_TEMPLATE
 -->
 
+{#1-5-4}
+## [1.5.4] - 2025-08-26
+
+[1.5.4]: https://github.com/bazel-contrib/rules_python/releases/tag/1.5.4
+
+{#v1-5-4-fixed}
+### Fixed
+
+* fix(local_runtime): Search for libs in sys._base_executable when available. #3178
+
 {#1-5-1}
 ## [1.5.1] - 2025-07-06
 
