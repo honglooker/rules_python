@@ -55,7 +55,8 @@ END_UNRELEASED_TEMPLATE
 {#v1-5-4-fixed}
 ### Fixed
 
-* fix(local_runtime): Search for libs in sys._base_executable when available. #3178
+* (local toolchains) Search for libs in sys._base_executable when available
+  ([#3178](https://github.com/bazel-contrib/rules_python/issues/3178)).
 
 {#1-5-3}
 ## [1.5.3] - 2025-08-11
